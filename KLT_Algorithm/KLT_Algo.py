@@ -49,6 +49,7 @@ while(1):
     cv.imshow('frame', img)
 
     k = cv.waitKey(30) & 0xff
+
     if k == 27:
         break
     # Now update the previous frame and previous points
